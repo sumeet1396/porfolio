@@ -1,0 +1,40 @@
+{
+  "projects": [
+    {
+      "id": "proj-001",
+      "title": "DevFlow Dashboard",
+      "description": "A real-time developer analytics dashboard with role-based access, WebSocket live metrics, and customizable widgets.",
+      "tech": ["Next.js", "Node.js", "PostgreSQL", "Docker"],
+      "github": "https://github.com/sumeet1396",
+      "live": null,
+      "featured": true
+    },
+    {
+      "id": "proj-002",
+      "title": "API Gateway Kit",
+      "description": "Modular Express.js API gateway with JWT auth middleware, rate limiting, and standardized error handling patterns.",
+      "tech": ["Express.js", "MongoDB", "AWS", "Docker"],
+      "github": "https://github.com/sumeet1396",
+      "live": null,
+      "featured": true
+    },
+    {
+      "id": "proj-003",
+      "title": "React UI Component Lab",
+      "description": "Reusable React component library with Storybook docs, performance-optimized hooks, and accessibility-first design tokens.",
+      "tech": ["React.js", "TypeScript", "JavaScript"],
+      "github": "https://github.com/sumeet1396",
+      "live": null,
+      "featured": false
+    },
+    {
+      "id": "proj-004",
+      "title": "Mobile Task Sync",
+      "description": "Cross-platform task manager with offline sync, push notifications, and cloud backup via REST APIs.",
+      "tech": ["React Native", "Node.js", "MongoDB", "AWS"],
+      "github": "https://github.com/sumeet1396",
+      "live": null,
+      "featured": false
+    }
+  ]
+}

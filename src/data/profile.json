@@ -1,0 +1,27 @@
+{
+  "name": "Sumeet Rane",
+  "title": "Software Engineer & AI Enthusiast",
+  "tagline": "Senior Full Stack Engineer | React.js Architect | System Design Focused",
+  "bio": "Senior Full Stack Engineer with 6+ years of experience architecting scalable React.js applications and distributed backend systems using Node.js, Express.js, and PostgreSQL. Strong expertise in frontend architecture, performance optimization, reusable component systems, API design, database optimization, and system design principles including modular architecture, authentication strategies, and workflow automation. Experienced in leading frontend teams, conducting technical interviews, and driving engineering best practices.",
+  "email": "sumeet1396@gmail.com",
+  "location": "Mumbai, India",
+  "social": {
+    "linkedin": "https://www.linkedin.com/in/sumeet-rane-530a4644/",
+    "github": "https://github.com/sumeet1396",
+    "leetcode": "https://leetcode.com/u/sumeet1396/"
+  },
+  "skills": [
+    "JavaScript",
+    "React.js",
+    "Next.js",
+    "Node.js",
+    "Express.js",
+    "MongoDB",
+    "PostgreSQL",
+    "WordPress",
+    "Python",
+    "AWS",
+    "React Native",
+    "Docker"
+  ]
+}
