@@ -17,8 +17,36 @@ Edit these JSON files and refresh:
 
 | File | What to update |
 |------|----------------|
-| `src/data/profile.json` | Name, title, bio, email, skills, social links |
+| `src/data/profile.json` | Name, title, bio, email, social links |
+| `src/data/skills.json` | Skills with icon URL and proficiency (0–100) |
+| `src/data/experience.json` | Work history (company, role, period, highlights) |
 | `src/data/projects.json` | Project cards (title, description, tech, links) |
+
+### Skill entry shape
+
+```json
+{
+  "id": "react",
+  "name": "React.js",
+  "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
+  "proficiency": 95
+}
+```
+
+`proficiency` is 0–100 (shown as progress bar). Labels: 90+ expert, 75+ advanced, 60+ intermediate.
+
+### Experience entry shape
+
+```json
+{
+  "id": "company-slug",
+  "company": "Company Name",
+  "role": "Job Title",
+  "period": "Jan 2020 – Present",
+  "description": "One-line company context.",
+  "highlights": ["Achievement or responsibility."]
+}
+```
 
 ### Project entry shape
 

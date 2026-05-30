@@ -10,7 +10,17 @@ export interface Profile {
     github: string;
     leetcode: string;
   };
-  skills: string[];
+}
+
+export interface Skill {
+  id: string;
+  name: string;
+  icon: string;
+  proficiency: number;
+}
+
+export interface SkillsData {
+  skills: Skill[];
 }
 
 export interface Project {
@@ -25,4 +35,17 @@ export interface Project {
 
 export interface ProjectsData {
   projects: Project[];
+}
+
+export interface Experience {
+  id: string;
+  company: string;
+  role: string;
+  period: string;
+  description: string;
+  highlights: string[];
+}
+
+export interface ExperienceData {
+  experience: Experience[];
 }

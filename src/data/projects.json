@@ -3,7 +3,7 @@
     {
       "id": "proj-001",
       "title": "MakeForms",
-      "description": "A real-time developer analytics dashboard with role-based access, WebSocket live metrics, and customizable widgets.",
+      "description": "MakeForms is an all-in-one platform for no-code custom forms, automated workflows, OTP verification, lead generation, and HIPAA-compliant data collection.",
       "tech": ["React.js", "Node.js", "Nest.js", "PostgreSQL", "Docker", "AWS"],
       "github": "https://github.com/sumeet1396",
       "live": null,
@@ -12,7 +12,7 @@
     {
       "id": "proj-002",
       "title": "MakeStories",
-      "description": "Modular Express.js API gateway with JWT auth middleware, rate limiting, and standardized error handling patterns.",
+      "description": "MakeStories helps publishers, marketers & designers to build, distribute & monetize visual, engaging Google Web Stories, faster. Without coding.",
       "tech": ["React.js", "Node.js", "Nest.js", "PostgreSQL", "Docker", "AWS"],
       "github": "https://github.com/sumeet1396",
       "live": null,

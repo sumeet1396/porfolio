@@ -1,0 +1,57 @@
+{
+  "experience": [
+    {
+      "id": "lti-mindtree",
+      "company": "LTI Mindtree",
+      "role": "Specialist – Software Engineer",
+      "period": "June 2025 – Present",
+      "description": "Global technology consulting and digital solutions company serving enterprise clients.",
+      "highlights": [
+        "Architected and maintained Express.js REST APIs for OLMS offshore logistics system ensuring reliable cross-module data flow.",
+        "Designed optimized PostgreSQL queries, joins, indexed views improving response efficiency.",
+        "Implemented triggers & stored procedures to enforce workflow validations at database level.",
+        "Designed reusable authentication middleware and standardized error handling architecture.",
+        "Collaborated with React frontend teams for scalable API integration patterns.",
+        "Conduct technical interviews for junior to mid-senior engineers."
+      ]
+    },
+    {
+      "id": "m2p-fintech",
+      "company": "M2P Fintech",
+      "role": "SDE – 2",
+      "period": "July 2023 – May 2025",
+      "description": "Fintech infrastructure company enabling embedded financial services.",
+      "highlights": [
+        "Led development of scalable React-based banking dashboards for enterprise clients.",
+        "Designed reusable UI component library improving development consistency.",
+        "Optimized frontend performance and reduced unnecessary re-renders.",
+        "Led frontend sprint planning, code reviews & hiring processes."
+      ]
+    },
+    {
+      "id": "eszmeletlen",
+      "company": "Eszmeletlen Holding Co.",
+      "role": "Software Engineer",
+      "period": "July 2021 – July 2023",
+      "description": "Product-based company building no-code web platforms.",
+      "highlights": [
+        "Built scalable form builders using Svelte with modular architecture principles.",
+        "Developed backend APIs including CRUD, 2FA & validation logic.",
+        "Integrated third-party APIs (Google Sheets, Calendly, WordPress).",
+        "Enhanced dashboard systems & media management modules."
+      ]
+    },
+    {
+      "id": "axioned",
+      "company": "Axioned",
+      "role": "Web Developer",
+      "period": "September 2019 – July 2021",
+      "description": "Service-based company delivering enterprise web solutions.",
+      "highlights": [
+        "Led full website rebranding and architecture restructuring.",
+        "Improved Core Web Vitals & frontend performance optimization.",
+        "Developed dashboards and email systems for client applications."
+      ]
+    }
+  ]
+}

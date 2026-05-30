@@ -2,10 +2,11 @@ import type { Profile } from "@/types";
 
 interface JsonLdProps {
   profile: Profile;
+  skillNames: string[];
   siteUrl: string;
 }
 
-export default function JsonLd({ profile, siteUrl }: JsonLdProps) {
+export default function JsonLd({ profile, skillNames, siteUrl }: JsonLdProps) {
   const schema = {
     "@context": "https://schema.org",
     "@type": "Person",
@@ -23,7 +24,7 @@ export default function JsonLd({ profile, siteUrl }: JsonLdProps) {
       profile.social.github,
       profile.social.leetcode,
     ],
-    knowsAbout: profile.skills,
+    knowsAbout: skillNames,
   };
 
   return (

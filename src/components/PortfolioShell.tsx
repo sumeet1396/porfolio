@@ -8,18 +8,28 @@ import Navbar from "./Navbar";
 import Hero from "./Hero";
 import About from "./About";
 import Skills from "./Skills";
+import Experience from "./Experience";
 import Projects from "./Projects";
 import Contact from "./Contact";
 import Footer from "./Footer";
-import type { Profile, Project } from "@/types";
+import type {
+  Profile,
+  Project,
+  Skill,
+  Experience as ExperienceEntry,
+} from "@/types";
 
 interface PortfolioShellProps {
   profile: Profile;
+  skills: Skill[];
+  experience: ExperienceEntry[];
   projects: Project[];
 }
 
 export default function PortfolioShell({
   profile,
+  skills,
+  experience,
   projects,
 }: PortfolioShellProps) {
   const [loading, setLoading] = useState(true);
@@ -40,7 +50,8 @@ export default function PortfolioShell({
             <main>
               <Hero profile={profile} />
               <About profile={profile} />
-              <Skills skills={profile.skills} />
+              <Skills skills={skills} />
+              <Experience experience={experience} />
               <Projects projects={projects} />
               <Contact profile={profile} />
             </main>
